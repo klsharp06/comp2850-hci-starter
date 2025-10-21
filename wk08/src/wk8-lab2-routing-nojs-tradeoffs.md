@@ -25,8 +25,8 @@
 - [WebAIM: Forms - Accessible Error Identification](https://webaim.org/articles/formvalidation/)
 
 📖 **Contextual**:
-- Review `sources/htmx-pattern-cheatsheet.md` (OOB pattern)
-- Review `sources/assistive-testing-checklist.md`
+- Review `../../references/htmx-pattern-cheatsheet.md` (OOB pattern)
+- Review `../../references/assistive-testing-checklist.md`
 - Review Week 7 Lab 1 inline edit implementation
 
 ---
@@ -991,7 +991,7 @@ Next week you'll instrument your prototype to capture metrics during peer pilots
 **Preparation**:
 - Verify all flows work (HTMX + no-JS)
 - Ensure backlog is up to date
-- Review `sources/evaluation-metrics-quickref.md` to understand what data you'll collect
+- Review `../../references/evaluation-metrics-quickref.md` to understand what data you'll collect
 
 ---
 
@@ -1003,12 +1003,12 @@ Next week you'll instrument your prototype to capture metrics during peer pilots
 - [WebAIM: Form Validation](https://webaim.org/articles/formvalidation/) — Screen reader considerations
 
 ### HTMX Patterns
-- `sources/htmx-pattern-cheatsheet.md` — OOB status, confirmation, error handling
+- `../../references/htmx-pattern-cheatsheet.md` — OOB status, confirmation, error handling
 - [HTMX: Validation Example](https://htmx.org/examples/inline-validation/) — Alternative inline pattern
 - [HTMX: hx-confirm](https://htmx.org/attributes/hx-confirm/) — Confirmation dialogs
 
 ### Testing
-- `sources/assistive-testing-checklist.md` — Weekly testing checklist
+- `../../references/assistive-testing-checklist.md` — Weekly testing checklist
 - [GOV.UK: Testing with Assistive Technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies)
 - [WebAIM: Screen Reader Testing](https://webaim.org/articles/screenreader_testing/)
 

@@ -28,8 +28,8 @@ paginate: true
 - Accreditation expects documented evidence
 - Sets foundation for pilots + redesigns
 - References:
-  - `sources/assistive-testing-checklist.md`
-  - `sources/example-accessible-inline-edit.md`
+  - `../../references/assistive-testing-checklist.md`
+  - `../../references/example-accessible-inline-edit.md`
   - WCAG quick reference
 
 ---

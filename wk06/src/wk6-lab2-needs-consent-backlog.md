@@ -17,9 +17,9 @@ Throughout COMP2850 we use **people-centred language** (e.g., "person using a sc
 
 **Essential**
 - [Ulwick, A. (2016). "Jobs to Be Done: Theory to Practice"](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done)
-- [ICO (2024). "Guide to Data Protection by Design and Default"](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/)
-- `sources/consent-pii-faq.md` (module ethics guidance)
-- `sources/privacy-by-design.md` (UK GDPR compliance framework)
+- [ICO (2024). "Guide to Data Protection by Design and Default"](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-re../../references/)
+- `../../references/consent-pii-faq.md` (module ethics guidance)
+- `../../references/privacy-by-design.md` (UK GDPR compliance framework)
 
 **Recommended**
 - [Microsoft Inclusive Design Toolkit](https://inclusive.microsoft.design/)
@@ -282,7 +282,7 @@ If you change your mind after the interview:
 ---
 
 **Template source**: COMP2850 HCI, University of Leeds
-**Reference**: ICO (2024). Guide to GDPR, <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/>
+**Reference**: ICO (2024). Guide to GDPR, <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-re../../references/>
 ```
 
 ### Step 3: Review with Lab Partner
@@ -793,7 +793,7 @@ object Logger {
 - Braun, V., & Clarke, V. (2006). "Using thematic analysis in psychology." *Qualitative Research in Psychology*, 3(2), 77-101.
 
 **Ethics & GDPR**
-- ICO (2024). *Guide to the UK GDPR*. <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/>
+- ICO (2024). *Guide to the UK GDPR*. <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-re../../references/>
 - BCS (2022). *Code of Conduct*. <https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/>
 
 **Inclusive design**

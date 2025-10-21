@@ -88,4 +88,4 @@
 ---
 
 **Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds)
-**References**: `sources/consent-pii-faq.md`, ICO UK GDPR guidance
+**References**: `../../../references/consent-pii-faq.md`, ICO UK GDPR guidance

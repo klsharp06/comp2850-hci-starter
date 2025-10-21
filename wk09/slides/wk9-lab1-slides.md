@@ -20,8 +20,8 @@ paginate: true
 - Accreditation expects traceability (task → metric → backlog)
 - Low-risk consent demands transparency
 - References:
-  - `sources/consent-pii-faq.md`
-  - `sources/evaluation-metrics-quickref.md`
+  - `../../references/consent-pii-faq.md`
+  - `../../references/evaluation-metrics-quickref.md`
   - Nielsen Norman: Test plan essentials
 
 ---

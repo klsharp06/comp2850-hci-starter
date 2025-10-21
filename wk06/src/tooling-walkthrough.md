@@ -33,7 +33,7 @@ You will run the Ktor app via `./gradlew run`. That task compiles the Kotlin cod
 3. The `Tasks` page should load. Leave this tab open while you work.
 
 ### 2.4 Develop and hot-refresh
-- Edit templates under `src/main/resources/templates/…` or Kotlin under `src/main/kotlin/…`.
+- Edit templates under `src/main/re../../references/templates/…` or Kotlin under `src/main/kotlin/…`.
 - After saving, switch back to the preview tab and use the browser’s refresh (`Ctrl/Cmd+R`).
 - If you change Kotlin code you must stop (`Ctrl+C`) and re-run `./gradlew run` to pick up the changes.
 

@@ -4,20 +4,21 @@
 Pebble is a lightweight HTML templating engine for the JVM. It takes plain text files (usually HTML) and replaces expressions, loops, and conditionals using the data you pass from Kotlin. Pebble renders on the server, so the browser receives fully formed HTML that works even when JavaScript is disabled.
 
 ## Why we use Pebble
-- Server-first philosophy: we can ship complete, accessible HTML before any enhancement.
+- Server-first philosophy: we can build complete, accessible HTML before any enhancement.
 - Safe by default: output is escaped unless you explicitly mark it as safe, which reduces XSS risks.
 - Familiar syntax: Jinja- or Twig-style blocks (`{% %}`) and expressions (`{{ }}`) keep the learning curve gentle.
 - Layouts and partials: `extends`, `block`, and `include` let us reuse structure and enforce consistency.
-- No build tooling required: templates are plain files in `re../../references/templates/` so they work on RHEL lab machines and Codespaces without extra setup.
+- No build tooling required: templates are plain files in `re./templates/` so they work on RHEL lab machines and Codespaces without extra setup.
 
 ## Mental model
 1. Ktor gathers or builds the data (for example `tasks: List<Task>`).
 2. We call `PebbleRender.render("tasks/index.peb", model)` to render HTML as a string.
 3. Ktor sends that HTML to the browser. HTMX can then request fragments of the same templates.
 
-Because rendering is server-side, keyboard-only users, screen reader users, and automated auditing tools get identical content to the HTMX-enhanced version.
+Because rendering is server-side, keyboard-only usage, screen readers, and automated auditing tools get identical 
+content to the HTMX-enhanced version.
 
-## Syntax essentials
+## Syntax common examples
 ```pebble
 {% extends "base.peb" %}
 {% block content %}

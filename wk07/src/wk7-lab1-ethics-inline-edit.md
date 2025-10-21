@@ -19,12 +19,12 @@ Throughout COMP2850 we use **people-centred language** (e.g., "person using a sc
 - [W3C (2024). WCAG 2.2: 3.3.1 Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
 - [W3C (2024). WCAG 2.2: 4.1.3 Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
 - [HTMX: Click to Edit Pattern](https://htmx.org/examples/click-to-edit/)
-- `sources/example-accessible-inline-edit.md` (worked example)
+- `../../references/example-accessible-inline-edit.md` (worked example)
 
 **Recommended**
 - [GOV.UK: Error Message Pattern](https://design-system.service.gov.uk/components/error-message/)
 - [Deque: ARIA Live Regions](https://www.deque.com/blog/aria-live-regions-updated/)
-- `sources/privacy-by-design.md` (ethics framework)
+- `../../references/privacy-by-design.md` (ethics framework)
 
 ---
 
@@ -233,7 +233,7 @@ Create `wk07/ethics/data-boundaries.md`:
 
 ---
 
-**Reference**: ICO (2024). Guide to GDPR, <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/>
+**Reference**: ICO (2024). Guide to GDPR, <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-re../../references/>
 ```
 
 ### Step 3: Update `.gitignore`
@@ -309,7 +309,7 @@ Ensure sensitive data isn't committed:
 ### Step 1: Create Partials Directory
 
 ```bash
-mkdir -p src/main/resources/templates/tasks/partials
+mkdir -p src/main/re../../references/templates/tasks/partials
 ```
 
 We'll create **two modes**: view (display title) and edit (input field).

@@ -19,7 +19,7 @@ Throughout COMP2850 we use **people-centred language** (e.g., "person using a sc
 - [W3C (2024). WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
 - [axe DevTools Documentation](https://www.deque.com/axe/devtools/)
 - [GOV.UK: Making Your Service Accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
-- `sources/assistive-testing-checklist.md` (module testing guide)
+- `../../references/assistive-testing-checklist.md` (module testing guide)
 
 **Recommended**
 - [WebAIM: WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
@@ -387,7 +387,7 @@ Create `wk07/audit/wcag-checklist.md`:
 **Contrast testing** (1.4.3):
 1. Open DevTools → Inspect element
 2. Check computed color values
-3. Use [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+3. Use [WebAIM Contrast Checker](https://webaim.org/re../../references/contrastchecker/)
    - Foreground: #6c757d
    - Background: #ffffff
    - **Result**: 4.2:1 (fails AA)
@@ -742,7 +742,7 @@ button {
 
 ### Step 3: Implement Fix
 
-**Edit `src/main/resources/templates/base.peb`**:
+**Edit `src/main/re../../references/templates/base.peb`**:
 
 Add inside `<style>` block:
 
@@ -767,7 +767,7 @@ button {
 ```
 
 **2. Contrast calculator**:
-- Visit [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- Visit [WebAIM Contrast Checker](https://webaim.org/re../../references/contrastchecker/)
 - Foreground: #495057
 - Background: #ffffff
 - **Result**: 7.0:1 (Pass AAA) ✅

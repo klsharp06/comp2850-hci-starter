@@ -207,4 +207,4 @@ For each task (T3, T1, T2, T4):
 ---
 
 **Template source**: Week 9 Lab Pack, COMP2850 (University of Leeds)
-**References**: Week 9 Lab 1 (Activity 4), `sources/evaluation-metrics-quickref.md`
+**References**: Week 9 Lab 1 (Activity 4), `../../../references/evaluation-metrics-quickref.md`

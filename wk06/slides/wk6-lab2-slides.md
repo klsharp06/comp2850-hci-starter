@@ -24,8 +24,8 @@ paginate: true
 ---
 
 ## References
-- `sources/consent-pii-faq.md`
-- `sources/privacy-by-design.md`
+- `../../references/consent-pii-faq.md`
+- `../../references/privacy-by-design.md`
 - Jobs-to-be-done primer
 - Microsoft Inclusive Design Toolkit
 

@@ -28,8 +28,8 @@ paginate: true
 - Duplication causes accessibility regressions
 - Accreditation looks for evidence of scalability + inclusion
 - References:
-  - `sources/template-map-week8.md`
-  - `sources/htmx-pattern-cheatsheet.md`
+  - `../../references/template-map-week8.md`
+  - `../../references/htmx-pattern-cheatsheet.md`
   - MDN: Accessible pagination patterns
 
 ---

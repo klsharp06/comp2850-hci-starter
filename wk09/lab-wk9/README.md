@@ -172,9 +172,9 @@ consolidated/lab-wk9/
 - Week 9 Lab 2: `wk09/src/wk9-lab2-pilots-debrief-draft.md`
 
 ### Supporting Guides
-- `sources/evaluation-metrics-quickref.md` - Quick metric formulas
-- `sources/consent-pii-faq.md` - Privacy questions answered
-- `sources/assistive-testing-checklist.md` - Accessibility verification
+- `../../references/evaluation-metrics-quickref.md` - Quick metric formulas
+- `../../references/consent-pii-faq.md` - Privacy questions answered
+- `../../references/assistive-testing-checklist.md` - Accessibility verification
 
 ### External Resources
 - [Nielsen Norman: Usability Testing 101](https://www.nngroup.com/articles/usability-testing-101/)

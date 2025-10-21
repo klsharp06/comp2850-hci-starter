@@ -23,7 +23,7 @@ Throughout COMP2850 we use **people-centred language** (e.g., "person using a sc
 **Recommended**
 - [W3C (2024). WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
 - [MDN: Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements)
-- `sources/privacy-by-design.md` (module-specific ethics guidance)
+- `../../references/privacy-by-design.md` (module-specific ethics guidance)
 
 ---
 
@@ -263,7 +263,7 @@ comp2850-hci-starter/
 │   │   └── TaskStore.kt      # CSV persistence
 │   └── utils/
 │       └── SessionUtils.kt   # Anonymous sessions
-├── src/main/resources/
+├── src/main/re../../references/
 │   ├── templates/
 │   │   ├── _layout/
 │   │   │   └── base.peb      # Accessible base layout
@@ -290,7 +290,7 @@ comp2850-hci-starter/
 ## Activity 2: Build Accessible Base Layout
 
 **Time**: 30 minutes
-**Materials**: `src/main/resources/templates/base.peb`
+**Materials**: `src/main/re../../references/templates/base.peb`
 
 ### Step 1: Create Semantic HTML Structure
 
@@ -546,9 +546,9 @@ fun Application.module() {
 > - `{{ title | escape }}` - HTML-escape (auto-enabled in Pebble)
 > - `{{ price | default(0) }}` - Fallback value if null
 >
-> **Reference**: [Pebble Documentation](https://pebbletemplates.io/) • `sources/pebble-intro.md`
+> **Reference**: [Pebble Documentation](https://pebbletemplates.io/) • `../../references/pebble-intro.md`
 
-Edit `src/main/resources/templates/tasks/index.peb`:
+Edit `src/main/re../../references/templates/tasks/index.peb`:
 
 ```html
 {% extends "base.peb" %}
@@ -989,7 +989,7 @@ Scope = which part of the codebase changed:
 For this lab, a good commit message would be:
 
 ```bash
-git add src/main/kotlin/ src/main/resources/templates/ build.gradle.kts
+git add src/main/kotlin/ src/main/re../../references/templates/ build.gradle.kts
 git commit -m "feat(scaffold): implement server-first task manager with HTMX
 
 - Add Ktor server with Pebble templating
@@ -1033,7 +1033,7 @@ In **Week 6 Lab 2** you will:
 4. Plan instrumentation for Week 9 evaluation
 
 **Preparation**:
-- Read `sources/consent-pii-faq.md` and `sources/privacy-by-design.md`
+- Read `../../references/consent-pii-faq.md` and `../../references/privacy-by-design.md`
 - Bring laptop with working scaffold (Lab 1 code)
 - Be ready to pair with a classmate for interviews
 

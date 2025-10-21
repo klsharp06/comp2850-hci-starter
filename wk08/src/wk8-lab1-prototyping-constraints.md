@@ -27,12 +27,12 @@ This lab feeds directly into Week 8 Lab 2 (no-JS parity verification) and sets u
 ---
 
 ## Pre-lab reading (15 min)
-- `sources/template-map-week8.md` (structure overview of the partials you will build)
+- `../../references/template-map-week8.md` (structure overview of the partials you will build)
 - [hypermedia.systems — Active Search](https://hypermedia.systems/active-search/)
 - [HTMX reference: `hx-push-url`](https://htmx.org/attributes/hx-push-url/) and [`hx-trigger`](https://htmx.org/attributes/hx-trigger/)
 - [Pebble template inheritance](https://pebbletemplates.io/wiki/guide/extending/) and include syntax
 
-Keep `sources/htmx-pattern-cheatsheet.md` open for copy/paste snippets.
+Keep `../../references/htmx-pattern-cheatsheet.md` open for copy/paste snippets.
 
 ---
 
@@ -53,8 +53,8 @@ Why refactor now? As lists grow, duplication becomes dangerous: accessibility fi
 Pagination and filtering are not just performance tricks; they control cognitive load, especially for screen-reader participants who would otherwise wade through hundreds of list items. Implement them with inclusive defaults: predictable focus, result announcements, and URLs that respect the back button.
 
 Keep these references handy while you work:
-- `sources/template-map-week8.md` (visual map of the partials you are about to create)
-- `sources/htmx-pattern-cheatsheet.md` (Active Search, OOB status, indicators)
+- `../../references/template-map-week8.md` (visual map of the partials you are about to create)
+- `../../references/htmx-pattern-cheatsheet.md` (Active Search, OOB status, indicators)
 - [MDN: Accessible Pagination Patterns](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Navigation_and_orienting#pagination)
 
 ### Worked example: Active Search with parity
@@ -123,7 +123,7 @@ Run `./gradlew run` and load `http://localhost:8080/tasks`:
 >     └── _pager.peb      ← Partial: pagination nav
 > ```
 
-We want a structure like the one in `sources/template-map-week8.md`.
+We want a structure like the one in `../../references/template-map-week8.md`.
 
 ### 1.1 Base layout
 Create `templates/_layout/base.peb` with the shared head, status region, skip link, Pico CSS, HTMX script, and utility classes. This keeps accessibility hooks (live region, focus outline, visually hidden class) in a single place.
@@ -285,8 +285,8 @@ Optional stretch this week: add a “mark complete” flow using the same partia
 ---
 
 ## Further resources
-- `sources/template-map-week8.md`
-- `sources/htmx-pattern-cheatsheet.md`
+- `../../references/template-map-week8.md`
+- `../../references/htmx-pattern-cheatsheet.md`
 - [Hypermedia Systems — Active Search](https://hypermedia.systems/active-search/)
 - [MDN — Accessible Pagination Patterns](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Navigation_and_orienting#pagination)
 

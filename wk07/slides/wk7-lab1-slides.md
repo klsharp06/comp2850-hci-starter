@@ -19,9 +19,9 @@ paginate: true
 - Inline edits often break assistive tech flows
 - This task becomes audit evidence in Week 7/Task 1
 - References:
-  - `sources/consent-pii-faq.md`
-  - `sources/privacy-by-design.md`
-  - `sources/example-accessible-inline-edit.md`
+  - `../../references/consent-pii-faq.md`
+  - `../../references/privacy-by-design.md`
+  - `../../references/example-accessible-inline-edit.md`
 
 ---
 

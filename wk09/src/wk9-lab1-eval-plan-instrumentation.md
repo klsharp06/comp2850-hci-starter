@@ -21,8 +21,8 @@
 📖 **Essential**:
 - [Nielsen Norman Group: How to Conduct a Usability Test](https://www.nngroup.com/articles/usability-testing-101/)
 - [W3C: Measuring Accessibility](https://www.w3.org/WAI/test-evaluate/metrics/)
-- Review `sources/evaluation-metrics-quickref.md`
-- Review `sources/consent-pii-faq.md`
+- Review `../../references/evaluation-metrics-quickref.md`
+- Review `../../references/consent-pii-faq.md`
 
 📖 **Contextual**:
 - [hypermedia.systems: Instrumentation](https://hypermedia.systems/) (optional chapter if available)
@@ -208,8 +208,8 @@ Maps to WCAG: 2.2 AA (evaluation must include accessibility testing)
 >
 > **UK context**: Data Protection Act 2018 + UK GDPR require **lawful basis** for processing. Low-risk peer studies at universities typically use "legitimate interest" or "consent" basis. **Must document** in protocol.
 >
-> 🔗 Review `sources/consent-pii-faq.md` for full guidance
-> 🔗 [ICO: Privacy by Design](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/accountability-and-governance/data-protection-by-design-and-default/)
+> 🔗 Review `../../references/consent-pii-faq.md` for full guidance
+> 🔗 [ICO: Privacy by Design](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-re../../references/accountability-and-governance/guide-to-accountability-and-governance/accountability-and-governance/data-protection-by-design-and-default/)
 
 ### Median vs Mean
 
@@ -449,7 +449,7 @@ Adjust wording if anything is ambiguous.
 ```markdown
 # Metrics Definitions — Week 9
 
-Reference: `sources/evaluation-metrics-quickref.md`
+Reference: `../../references/evaluation-metrics-quickref.md`
 
 ---
 
@@ -1410,8 +1410,8 @@ Next session (Lab 2):
 ## Further Reading & Resources
 
 ### Essential
-- `sources/evaluation-metrics-quickref.md` — Median, MAD, error rate calculations
-- `sources/consent-pii-faq.md` — PII definitions, opt-out procedures
+- `../../references/evaluation-metrics-quickref.md` — Median, MAD, error rate calculations
+- `../../references/consent-pii-faq.md` — PII definitions, opt-out procedures
 - [Nielsen: How Many Test Users?](https://www.nngroup.com/articles/how-many-test-users/) — 5 users find 85% of issues
 
 ### HCI Evaluation Methods
@@ -1420,7 +1420,7 @@ Next session (Lab 2):
 - [Measuring UX](https://measuringux.com/) — Practical guide to quantitative UX
 
 ### Ethics & Privacy
-- [ICO: Data Protection by Design](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/accountability-and-governance/data-protection-by-design-and-default/)
+- [ICO: Data Protection by Design](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-re../../references/accountability-and-governance/guide-to-accountability-and-governance/accountability-and-governance/data-protection-by-design-and-default/)
 - [BPS Code of Ethics](https://www.bps.org.uk/guideline/code-ethics-and-conduct) — UK professional standards for research
 - [University of Leeds Research Ethics](https://researchsupport.leeds.ac.uk/research-ethics/) — Institutional policy
 

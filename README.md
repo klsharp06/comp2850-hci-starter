@@ -83,9 +83,9 @@ Open http://localhost:8080/tasks
 | **Task.kt** | Data model, validation | `src/main/kotlin/model/` |
 | **TaskStore.kt** | CSV persistence | `src/main/kotlin/storage/` |
 | **Logger.kt** | Added in Week 9 lab (students create) | `src/main/kotlin/utils/` |
-| **base.peb** | HTML layout template | `src/main/resources/templates/_layout/` |
-| **tasks/index.peb** | Full page view | `src/main/resources/templates/tasks/` |
-| **tasks/_item.peb** | Single task partial | `src/main/resources/templates/tasks/` |
+| **base.peb** | HTML layout template | `src/main/rereferences/templates/_layout/` |
+| **tasks/index.peb** | Full page view | `src/main/rereferences/templates/tasks/` |
+| **tasks/_item.peb** | Single task partial | `src/main/rereferences/templates/tasks/` |
 
 ---
 
@@ -180,7 +180,7 @@ starter-repo/
 │   │   │   │   └── TaskStore.kt        # CSV persistence
 │   │   │   └── utils/
 │   │   │       └── SessionUtils.kt     # Anonymous sessions (Week 6 baseline)
-│   │   └── resources/
+│   │   └── rereferences/
 │   │       ├── templates/
 │   │       │   ├── _layout/
 │   │       │   │   └── base.peb        # HTML layout
@@ -212,7 +212,7 @@ starter-repo/
 
 | Week | Feature you will implement | Files to modify |
 |------|-----------------------------|-----------------|
-| 7 | Inline edit (view ↔ edit mode) | `src/main/resources/templates/tasks/_edit.peb`, new routes in `routes/` |
+| 7 | Inline edit (view ↔ edit mode) | `src/main/rereferences/templates/tasks/_edit.peb`, new routes in `routes/` |
 | 8 | Pagination & filtering refinements | `utils/Pagination.kt`, `_pager.peb`, task routes |
 | 9 | Instrumentation & metrics logging | `utils/Logger.kt`, `utils/Timing.kt`, routes |
 | 10 | Analysis scripts & redesign packaging | `wk10/` lab pack + `templates/` updates |
@@ -511,9 +511,9 @@ rm data/tasks.csv
 - [Pebble Templates](https://pebbletemplates.io/)
 
 ### Module Resources
-- `sources/privacy-by-design.md` - Privacy guidance
-- `sources/evaluation-metrics-quickref.md` - Metrics formulas
-- `sources/assistive-testing-checklist.md` - Step-by-step a11y tests
+- `references/privacy-by-design.md` - Privacy guidance
+- `references/evaluation-metrics-quickref.md` - Metrics formulas
+- `references/assistive-testing-checklist.md` - Step-by-step a11y tests
 
 ---
 

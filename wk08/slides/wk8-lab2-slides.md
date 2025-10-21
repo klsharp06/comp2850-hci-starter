@@ -28,8 +28,8 @@ paginate: true
 - Accreditation expects evidence of resilience
 - Parity scripts become Task 1 artefacts
 - References:
-  - `sources/assistive-testing-checklist.md`
-  - `sources/htmx-pattern-cheatsheet.md`
+  - `../../references/assistive-testing-checklist.md`
+  - `../../references/htmx-pattern-cheatsheet.md`
   - HTMX essay: Handling server errors
 
 ---

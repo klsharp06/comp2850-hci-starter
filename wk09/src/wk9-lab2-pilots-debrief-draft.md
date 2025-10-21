@@ -22,12 +22,12 @@
 
 📖 **Essential**:
 - Review your Week 9 Lab 1 protocol (`wk09/lab-wk9/research/protocol.md`)
-- Review `sources/consent-pii-faq.md`
+- Review `../../references/consent-pii-faq.md`
 - [Nielsen: How Many Test Users in Usability Studies?](https://www.nngroup.com/articles/how-many-test-users/)
 
 📖 **Quick reference**:
-- `sources/evaluation-metrics-quickref.md`
-- `sources/assistive-testing-checklist.md`
+- `../../references/evaluation-metrics-quickref.md`
+- `../../references/assistive-testing-checklist.md`
 
 ---
 
@@ -853,7 +853,7 @@ Next week:
 - **Lab 2**: Implement Priority 1-2 fixes, re-verify accessibility, update backlog, prepare Task 2 evidence pack
 
 **Before Week 10**:
-- Review `sources/evaluation-metrics-quickref.md` for analysis formulas
+- Review `../../references/evaluation-metrics-quickref.md` for analysis formulas
 - Refresh WCAG 2.2 guidelines for fixes (3.3.1, 4.1.3)
 - Think about trade-offs: which fixes are quick wins vs major refactors?
 
@@ -863,7 +863,7 @@ Next week:
 
 ### Essential
 - Review Week 9 Lab 1 (evaluation planning) for context
-- `sources/evaluation-metrics-quickref.md` — Median, MAD, error rate formulas
+- `../../references/evaluation-metrics-quickref.md` — Median, MAD, error rate formulas
 - [GOV.UK: Analysing user research](https://www.gov.uk/service-manual/user-research/analyse-a-research-session)
 
 ### HCI Evaluation
@@ -876,7 +876,7 @@ Next week:
 - [GOV.UK: Analysing qualitative data](https://www.gov.uk/service-manual/user-research/analyse-a-research-session)
 
 ### Ethics
-- Review `sources/consent-pii-faq.md`
+- Review `../../references/consent-pii-faq.md`
 - [BPS Code of Ethics](https://www.bps.org.uk/guideline/code-ethics-and-conduct)
 
 ---

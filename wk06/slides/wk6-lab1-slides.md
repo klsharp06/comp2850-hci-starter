@@ -24,8 +24,8 @@ paginate: true
 ---
 
 ## References
-- `sources/privacy-by-design.md`
-- `sources/consent-pii-faq.md`
+- `../../references/privacy-by-design.md`
+- `../../references/consent-pii-faq.md`
 - hypermedia.systems — Hypermedia reintroduction
 - HTMX docs (request → target → swap pattern)
 
