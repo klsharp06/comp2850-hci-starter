@@ -36,7 +36,7 @@ This lab marks the beginning of the **HCI component** of COMP2850 (Weeks 6-11). 
 Modern web development often defaults to client-heavy JavaScript frameworks (React, Vue, Angular). While powerful, these approaches can create accessibility barriers:
 - Screen readers struggle with dynamically-rendered content
 - Keyboard navigation breaks when focus management is incorrect
-- Users with JavaScript disabled (corporate firewalls, data-saving modes) lose functionality
+- Customers with JavaScript disabled (corporate firewalls, data-saving modes) lose functionality
 - Development complexity increases, making accessibility fixes expensive to retrofit
 
 **Server-first architecture** inverts this model: the server renders complete, semantic HTML that works *without* JavaScript. We then add HTMX as a **progressive enhancement layer** to improve interactivity without sacrificing the baseline experience.

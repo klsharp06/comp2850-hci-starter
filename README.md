@@ -462,7 +462,7 @@ rm data/tasks.csv
 
 ### Week 6: Setup & Basics
 - ✅ Clone this repo
-- ✅ Verify runs in Codespaces and IntelliJ
+- ✅ Verify runs in IDE of choice
 - ✅ Add 3 tasks, toggle completion, delete
 - ✅ Test with JavaScript OFF
 - ✅ Run keyboard-only test
@@ -538,4 +538,4 @@ Educational use only. COMP2850 module materials © University of Leeds.
 
 ---
 
-**Questions?** See module staff on Minerva or check lab documentation in parent repository.
+**Questions?** See module staff in lab or check md-book documentation in parent repository.

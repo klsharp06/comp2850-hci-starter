@@ -8,7 +8,7 @@ import io.ktor.server.plugins.callloging.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.pebbletemplates.pebble.PebbleEngine
-import routes.configureTaskRoutes
+import routes.taskRoutes
 import routes.configureHealthCheck
 import utils.SessionData
 import java.io.StringWriter
@@ -187,6 +187,7 @@ fun Application.configureRouting() {
         configureHealthCheck()
 
         // Task management routes (main feature)
-        configureTaskRoutes()
+        // TODO: Week 6 Lab 1 - Implement taskRoutes()
+        taskRoutes()
     }
 }
