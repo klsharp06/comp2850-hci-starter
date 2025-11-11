@@ -556,8 +556,6 @@ rm data/tasks.csv
 
 ## License
 
-Educational use only. COMP2850 module materials © University of Leeds.
-
 **HTMX**: BSD 2-Clause License
 **Pico CSS**: MIT License
 **Ktor**: Apache License 2.0
