@@ -18,6 +18,12 @@ val logbackVersion = "1.4.14"
 val pebbleVersion = "3.2.2"
 
 dependencies {
+    
+    implementation("io.ktor:ktor-server-core:2.3.12")
+    implementation("io.ktor:ktor-server-netty:2.3.12")
+    implementation("io.pebbletemplates:pebble:3.2.2")
+    implementation("ch.qos.logback:logback-classic:1.5.6")
+
     // Ktor server core
     implementation("io.ktor:ktor-server-core-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-netty-jvm:$ktorVersion")
