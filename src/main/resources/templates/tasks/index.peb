@@ -1,4 +1,6 @@
 {% extends "_layout/base.peb" %}
+{% include "_edit.peb" %}
+{% include "_item.peb" %}
 
 {% block content %}
 <h1>Tasks</h1>
@@ -32,18 +34,15 @@
   <h2 id="list-heading">Current tasks ({{ tasks | length }})</h2>
   {# Minor Issue: Image without alt text for Week 7 Lab 2 discovery #}
   <img src="/static/img/icon.png" width="16" height="16">
+
   <ul id="task-list">
     {% for task in tasks %}
-      <li id="task-{{ task.id }}">
-        <span>{{ task.title }}</span>
-        <form action="/tasks/{{ task.id }}/delete" method="post" style="display: inline;"
-              hx-post="/tasks/{{ task.id }}/delete"
-              hx-target="#task-{{ task.id }}"
-              hx-swap="outerHTML">
-          <button type="submit" aria-label="Delete task: {{ task.title }}">Delete</button>
-        </form>
-      </li>
-    {% else %}
+      {% if editingId and editingId == task.id %}
+        {% include "tasks/_edit.peb" with {"task": task, "error": errorMessage} %}
+      {% else %}
+        {% include "tasks/_item.peb" with {"task": task} %}
+      {% endif %}
+    
       <li>No tasks yet. Add one above!</li>
     {% endfor %}
   </ul>
